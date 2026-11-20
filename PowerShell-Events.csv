@@ -1,0 +1,2269 @@
+﻿"TimeCreated","EventId","RecordId","ProcessId","ThreadId","ProviderName","Level","MachineName","ContainsRunId","Message"
+"2026-11-08T15:35:42.8577107+07:00","4103","3643","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(PSConsoleHostReadLine): ""PSConsoleHostReadLine""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 63
+        Command Name = PSConsoleHostReadLine
+        Command Type = Function
+        Script Name = 
+        Command Path = 
+        Sequence Number = 1570
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:42.8631337+07:00","4104","3644","7872","3212","Microsoft-Windows-PowerShell","Verbose","NT230-G13","False","Creating Scriptblock text (1 of 1):
+.\Invoke-PoC.ps1 -ModulePath .\WmiExcutor.psm1
+
+ScriptBlock ID: 46f64e01-1385-463a-8964-b36bf46f7290
+Path: "
+"2026-11-08T15:35:42.8676727+07:00","4103","3645","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Join-Path): ""Join-Path""
+ParameterBinding(Join-Path): name=""Path""; value=""C:\Users\NT20-G13\Scripts""
+ParameterBinding(Join-Path): name=""ChildPath""; value=""Output""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Join-Path
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1577
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:42.8688164+07:00","4103","3646","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Test-Path): ""Test-Path""
+ParameterBinding(Test-Path): name=""LiteralPath""; value="".\WmiExcutor.psm1""
+ParameterBinding(Test-Path): name=""PathType""; value=""Leaf""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Test-Path
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1581
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:42.8692877+07:00","4103","3647","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Resolve-Path): ""Resolve-Path""
+ParameterBinding(Resolve-Path): name=""LiteralPath""; value="".\WmiExcutor.psm1""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Resolve-Path
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1585
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:42.8699065+07:00","4103","3648","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Test-Path): ""Test-Path""
+ParameterBinding(Test-Path): name=""LiteralPath""; value=""C:\Users\NT20-G13\Scripts\Output""
+ParameterBinding(Test-Path): name=""PathType""; value=""Container""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Test-Path
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1589
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:42.8701800+07:00","4103","3649","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Get-Date): ""Get-Date""
+ParameterBinding(Get-Date): name=""Format""; value=""yyyyMMdd-HHmmss""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Get-Date
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1593
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:42.8705494+07:00","4103","3650","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","True","CommandInvocation(Join-Path): ""Join-Path""
+ParameterBinding(Join-Path): name=""Path""; value=""C:\Users\NT20-G13\Scripts\Output""
+ParameterBinding(Join-Path): name=""ChildPath""; value=""POC-20261108-153542-E74BC5""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Join-Path
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1597
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:42.8717055+07:00","4103","3651","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","True","CommandInvocation(New-Item): ""New-Item""
+ParameterBinding(New-Item): name=""ItemType""; value=""Directory""
+ParameterBinding(New-Item): name=""Path""; value=""C:\Users\NT20-G13\Scripts\Output\POC-20261108-153542-E74BC5""
+ParameterBinding(New-Item): name=""Force""; value=""True""
+CommandInvocation(Out-Null): ""Out-Null""
+ParameterBinding(Out-Null): name=""InputObject""; value=""C:\Users\NT20-G13\Scripts\Output\POC-20261108-153542-E74BC5""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = New-Item
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1603
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:42.8864409+07:00","4103","3652","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(New-Object): ""New-Object""
+ParameterBinding(New-Object): name=""TypeName""; value=""Security.Principal.WindowsPrincipal""
+ParameterBinding(New-Object): name=""ArgumentList""; value=""System.Security.Principal.WindowsIdentity""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = New-Object
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1608
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:42.8908388+07:00","4103","3653","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Write-Host): ""Write-Host""
+ParameterBinding(Write-Host): name=""Object""; value=""[POC_EXECUTOR] INITIALIZATION=STARTED""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Write-Host
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1613
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:42.8921729+07:00","4103","3654","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","True","CommandInvocation(Write-Host): ""Write-Host""
+ParameterBinding(Write-Host): name=""Object""; value=""[POC_EXECUTOR] RUN_ID=POC-20261108-153542-E74BC5 SCENARIO_ID=FILELESS-WMI-001 VARIANT_ID=V01""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Write-Host
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1617
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:42.8934836+07:00","4103","3655","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Write-Host): ""Write-Host""
+ParameterBinding(Write-Host): name=""Object""; value=""[POC_EXECUTOR] HOST=NT230-G13 PROCESS_NAME=powershell.exe PROCESS_ID=7872""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Write-Host
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1621
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:42.8945794+07:00","4103","3656","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Write-Host): ""Write-Host""
+ParameterBinding(Write-Host): name=""Object""; value=""[POC_EXECUTOR] ADMINISTRATOR=True""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Write-Host
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1625
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:42.9328062+07:00","4104","3657","7872","3212","Microsoft-Windows-PowerShell","Verbose","NT230-G13","False","Creating Scriptblock text (1 of 1):
+#Requires -Version 5.1
+<#
+.SYNOPSIS
+    WmiExecutor.psm1 - Module thuc thi benign WMI read-only component cho NT230 PoC.
+.DESCRIPTION
+    Module cung cap function Invoke-PocWmiComponent theo schema_version 1.1,
+    tuong thich voi PowerShellExecutor.psm1 de Telemetry Collector dung chung parser.
+
+    Component thuc hien:
+      1. Query Win32_OperatingSystem (thong tin OS)
+      2. Query Win32_Process cua tien trinh PowerShell hien tai (PID, ParentProcessId, CreationDate)
+      3. Lay process inventory (top N theo MaxProcesses)
+      4. Tao memory marker va validate marker
+
+    Marker chi ton tai trong bo nho (fileless benign), khong ghi ra disk.
+.NOTES
+    Project  : NT230
+    Scenario : FILELESS-WMI-001
+    Schema   : 1.1
+#>
+
+Set-StrictMode -Version Latest
+
+# =============================================================================
+# Private helpers
+# =============================================================================
+
+function ConvertTo-Iso8601WithOffset {
+    <#
+    .SYNOPSIS
+        Convert WMI datetime sang ISO 8601 string co offset (DateTimeOffset).
+    .DESCRIPTION
+        Get-CimInstance tra ve datetime duoi dang DateTime object (Kind=Local),
+        nhung mot so truong hop (Get-WmiObject hoac property raw) co the tra ve
+        DMTF string dang ""yyyyMMddHHmmss.ffffff+UUU"". Function nay xu ly ca
+        DateTime, DateTimeOffset, DMTF string va ISO 8601 string, luon tra ve
+        chuoi ISO 8601 co offset (vd: 2026-11-08T15:27:24.5230556+07:00).
+
+        Neu khong the convert, tra ve $null - khong bao gio fallback sang string
+        local time khong offset (de tranh telemetry correlation sai).
+    .PARAMETER Value
+        Gia tri datetime can convert (DateTime, DateTimeOffset, hoac DMTF string).
+    .OUTPUTS
+        String ISO 8601 co offset, hoac $null neu input null/invalid.
+    #>
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory = $false)][object]$Value
+    )
+
+    if ($null -eq $Value) { return $null }
+
+    # Truong hop 1: DateTimeOffset - goi ToString('o') truc tiep.
+    if ($Value -is [System.DateTimeOffset]) {
+        return $Value.ToString('o')
+    }
+
+    # Truong hop 2: DateTime - convert sang DateTimeOffset giu Kind.
+    if ($Value -is [System.DateTime]) {
+        if ($Value.Kind -eq [System.DateTimeKind]::Utc) {
+            return (New-Object System.DateTimeOffset($Value, [System.TimeSpan]::Zero)).ToString('o')
+        }
+        # Local hoac Unspecified - dung offset cua local timezone.
+        $localOffset = [System.TimeZoneInfo]::Local.GetUtcOffset($Value)
+        return (New-Object System.DateTimeOffset($Value, $localOffset)).ToString('o')
+    }
+
+    # Truong hop 3: String - co the la DMTF (WMI raw) hoac ISO 8601.
+    if ($Value -is [string]) {
+        if ([string]::IsNullOrWhiteSpace($Value)) { return $null }
+
+        # 3a: Thu parse ISO 8601 truoc (ly tuong nhat).
+        try {
+            $parsed = [System.DateTimeOffset]::Parse(
+                $Value,
+                [System.Globalization.CultureInfo]::InvariantCulture,
+                [System.Globalization.DateTimeStyles]::AssumeLocal
+            )
+            return $parsed.ToString('o')
+        }
+        catch {
+            # Khong phai ISO 8601 - thu DMTF.
+        }
+
+        # 3b: DMTF string (vd: ""20261107160308.593498+420"").
+        try {
+            $dt = [System.Management.ManagementDateTimeConverter]::ToDateTime($Value)
+            if ($null -ne $dt) {
+                $localOffset = [System.TimeZoneInfo]::Local.GetUtcOffset($dt)
+                return (New-Object System.DateTimeOffset($dt, $localOffset)).ToString('o')
+            }
+        }
+        catch {
+            return $null
+        }
+    }
+
+    return $null
+}
+
+function New-MemoryMarker {
+    <#
+    .SYNOPSIS
+        Tao marker trong bo nho (script scope) cho PoC.
+    .DESCRIPTION
+        Marker la PSCustomObject luu trong session state variable.
+        Day la ky thuat fileless benign - khong ghi ra disk.
+    #>
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory = $true)][ValidateNotNullOrEmpty()][string]$RunId,
+        [Parameter(Mandatory = $true)][ValidateNotNullOrEmpty()][string]$ScenarioId,
+        [Parameter(Mandatory = $true)][ValidateNotNullOrEmpty()][string]$VariantId,
+        [Parameter(Mandatory = $true)][ValidateNotNullOrEmpty()][string]$Component
+    )
+
+    $marker = [PSCustomObject][ordered]@{
+        name           = 'NT230_FILELESS_POC'
+        marker_version = '1.1'
+        project        = 'NT230'
+        run_id         = $RunId
+        scenario_id    = $ScenarioId
+        variant_id     = $VariantId
+        component      = $Component
+        execution_type = 'benign'
+        storage        = 'memory'
+        created_at     = [System.DateTimeOffset]::Now.ToString('o')
+        host           = $env:COMPUTERNAME
+        status         = 'initialized'
+    }
+
+    # Luu marker vao script-scope variable de validate lai sau.
+    $varName = 'NT230_FILELESS_POC_MARKER_' + $RunId
+    Set-Variable -Name $varName -Value $marker -Scope Script
+
+    return $marker
+}
+
+function Test-MemoryMarker {
+    <#
+    .SYNOPSIS
+        Validate marker co ton tai trong bo nho va co dung run_id khong.
+    .OUTPUTS
+        PSCustomObject voi cac truong: marker_name, storage, status, run_id,
+        variable_exists, run_id_match, marker_version, validation_time.
+    #>
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory = $true)][ValidateNotNullOrEmpty()][string]$RunId
+    )
+
+    $varName = 'NT230_FILELESS_POC_MARKER_' + $RunId
+
+    $validation = [PSCustomObject][ordered]@{
+        marker_name      = 'NT230_FILELESS_POC'
+        storage          = 'memory'
+        status           = 'NOT_VALIDATED'
+        run_id           = $RunId
+        variable_exists  = $false
+        run_id_match     = $false
+        marker_version   = $null
+        validation_time  = [System.DateTimeOffset]::Now.ToString('o')
+    }
+
+    try {
+        $markerVar = Get-Variable -Name $varName -Scope Script -ErrorAction Stop
+        if ($null -ne $markerVar.Value) {
+            $validation.variable_exists = $true
+            if ([string]$markerVar.Value.run_id -eq $RunId) {
+                $validation.run_id_match   = $true
+                $validation.marker_version = [string]$markerVar.Value.marker_version
+                $validation.status         = 'VALID'
+            }
+            else {
+                $validation.status = 'RUN_ID_MISMATCH'
+            }
+        }
+        else {
+            $validation.status = 'MARKER_NULL'
+        }
+    }
+    catch {
+        $validation.status = 'VARIABLE_NOT_FOUND'
+    }
+
+    return $validation
+}
+
+function Get-ProcessInventory {
+    <#
+    .SYNOPSIS
+        Lay danh sach N tien trinh dang chay (process inventory).
+    .DESCRIPTION
+        Sap xep theo ProcessId va lay top N de co danh sach on dinh giua cac lan chay.
+    #>
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory = $true)][ValidateRange(1, 10)][int]$MaxProcesses
+    )
+
+    $inventory = @()
+
+    try {
+        $processes = Get-CimInstance -ClassName Win32_Process `
+            -Property Name, ProcessId, ParentProcessId, CreationDate, CommandLine `
+            -ErrorAction Stop
+
+        $topProcesses = $processes | Sort-Object ProcessId | Select-Object -First $MaxProcesses
+
+        foreach ($p in $topProcesses) {
+            $creationDate = ConvertTo-Iso8601WithOffset -Value $p.CreationDate
+
+            $inventory += [PSCustomObject][ordered]@{
+                name           = $p.Name
+                pid            = [int]$p.ProcessId
+                parent_pid     = [int]$p.ParentProcessId
+                creation_date  = $creationDate
+                command_line   = $p.CommandLine
+            }
+        }
+    }
+    catch {
+        # Inventory co the trong neu WMI khong truy cap duoc.
+        Write-Warning ('[WMI_EXECUTOR] PROCESS_INVENTORY_ERROR={0}' -f $_.Exception.Message)
+    }
+
+    return $inventory
+}
+
+# =============================================================================
+# Public function (entry point cua module)
+# =============================================================================
+
+function Invoke-PocWmiComponent {
+    <#
+    .SYNOPSIS
+        Thuc thi benign WMI read-only component cho PoC.
+    .DESCRIPTION
+        Component thuc hien cac query WMI chi doc (read-only) va tao memory marker.
+        Tra ve execution result theo schema_version 1.1, tuong thich voi
+        PowerShellExecutor.psm1 de Telemetry Collector dung chung parser.
+
+        Buoc thuc thi:
+          1. Query Win32_OperatingSystem (Caption, Version, BuildNumber, CSName, LastBootUpTime)
+          2. Query Win32_Process cua tien trinh PowerShell hien tai
+             (Name, ProcessId, ParentProcessId, CreationDate, CommandLine)
+          3. Lay process inventory (top N theo MaxProcesses)
+          4. Tao memory marker va validate marker
+
+        Marker chi ton tai trong bo nho (fileless benign), khong ghi ra disk.
+    .PARAMETER RunId
+        Dinh danh duy nhat cua lan chay (do controller cap).
+    .PARAMETER ScenarioId
+        Ma kich ban (vd: FILELESS-WMI-001).
+    .PARAMETER VariantId
+        Ma bien the (vd: V01).
+    .PARAMETER MaxProcesses
+        So luong tien trinh toi da de lay trong inventory (1-10).
+    .OUTPUTS
+        PSCustomObject theo schema_version 1.1, gom:
+        schema_version, run_id, scenario_id, variant_id, component, operation,
+        start_time, end_time, duration_ms, status, process, marker,
+        marker_validation, result, errors, error_message.
+    #>
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory = $true)][ValidateNotNullOrEmpty()][string]$RunId,
+        [Parameter(Mandatory = $true)][ValidateNotNullOrEmpty()][string]$ScenarioId,
+        [Parameter(Mandatory = $true)][ValidateNotNullOrEmpty()][string]$VariantId,
+        [Parameter(Mandatory = $true)][ValidateRange(1, 10)][int]$MaxProcesses
+    )
+
+    $component = 'wmi_executor'
+    $operation = 'wmi_readonly_inventory'
+    $startTime = [System.DateTimeOffset]::Now
+    $errors    = @()
+
+    $osInfo             = $null
+    $processInfo        = $null
+    $processInventory   = @()
+    $marker             = $null
+    $markerValidation   = $null
+
+    # ------------------------------------------------------------------
+    # Query 1: Win32_OperatingSystem
+    # ------------------------------------------------------------------
+    try {
+        $os = Get-CimInstance -ClassName Win32_OperatingSystem `
+            -Property Caption, Version, BuildNumber, CSName, LastBootUpTime `
+            -ErrorAction Stop
+
+        $lastBoot = ConvertTo-Iso8601WithOffset -Value $os.LastBootUpTime
+
+        $osInfo = [PSCustomObject][ordered]@{
+            caption       = $os.Caption
+            version       = $os.Version
+            build_number  = $os.BuildNumber
+            computer      = $os.CSName
+            last_boot_up  = $lastBoot
+        }
+    }
+    catch {
+        $errors += ('OS_QUERY: ' + $_.Exception.Message)
+    }
+
+    # ------------------------------------------------------------------
+    # Query 2: Win32_Process cua tien trinh PowerShell hien tai
+    # ------------------------------------------------------------------
+    try {
+        $proc = Get-CimInstance -ClassName Win32_Process `
+            -Filter ""ProcessId = $PID"" `
+            -Property Name, ProcessId, ParentProcessId, CreationDate, CommandLine `
+            -ErrorAction Stop
+
+        if ($null -eq $proc) {
+            throw 'Cannot find current PowerShell process via WMI.'
+        }
+
+        $creationDate = ConvertTo-Iso8601WithOffset -Value $proc.CreationDate
+
+        $processInfo = [PSCustomObject][ordered]@{
+            name              = $proc.Name
+            pid               = [int]$proc.ProcessId
+            parent_pid        = [int]$proc.ParentProcessId
+            creation_date     = $creationDate
+            command_line      = $proc.CommandLine
+            parent_pid_source = 'wmi_win32_process'
+        }
+    }
+    catch {
+        $errors += ('PROCESS_QUERY: ' + $_.Exception.Message)
+    }
+
+    # ------------------------------------------------------------------
+    # Query 3: Process inventory (top N theo MaxProcesses)
+    # ------------------------------------------------------------------
+    $processInventory = Get-ProcessInventory -MaxProcesses $MaxProcesses
+
+    # ------------------------------------------------------------------
+    # Marker: tao trong bo nho + validate
+    # ------------------------------------------------------------------
+    try {
+        $marker = New-MemoryMarker `
+            -RunId $RunId `
+            -ScenarioId $ScenarioId `
+            -VariantId $VariantId `
+            -Component $component
+
+        $marker.status = 'running'
+
+        $markerValidation = Test-MemoryMarker -RunId $RunId
+
+        if ($markerValidation.status -eq 'VALID') {
+            $marker.status = 'completed'
+        }
+        else {
+            $marker.status = 'partial'
+            $errors += ('MARKER_VALIDATION: ' + $markerValidation.status)
+        }
+    }
+    catch {
+        $errors += ('MARKER: ' + $_.Exception.Message)
+    }
+
+    # ------------------------------------------------------------------
+    # Tinh toan thoi gian va status
+    # ------------------------------------------------------------------
+    $endTime    = [System.DateTimeOffset]::Now
+    $durationMs = [int]([System.Math]::Round(($endTime - $startTime).TotalMilliseconds))
+
+    $status = 'FAILED'
+    if ($errors.Count -eq 0 `
+        -and $null -ne $osInfo `
+        -and $null -ne $processInfo `
+        -and $null -ne $markerValidation `
+        -and $markerValidation.status -eq 'VALID') {
+        $status = 'SUCCESS'
+    }
+    elseif ($null -ne $osInfo `
+        -or $null -ne $processInfo `
+        -or $processInventory.Count -gt 0) {
+        $status = 'PARTIAL'
+    }
+
+    # ------------------------------------------------------------------
+    # Build result object
+    # ------------------------------------------------------------------
+    $result = [PSCustomObject][ordered]@{
+        operation           = $operation
+        os                  = $osInfo
+        process             = $processInfo
+        process_count       = [int]$processInventory.Count
+        process_inventory   = $processInventory
+    }
+
+    $markerRecord = [PSCustomObject][ordered]@{
+        name              = 'NT230_FILELESS_POC'
+        storage           = 'memory'
+        validation_status = if ($null -ne $markerValidation) { [string]$markerValidation.status } else { 'NOT_AVAILABLE' }
+        run_id            = $RunId
+    }
+
+    return [PSCustomObject][ordered]@{
+        schema_version    = '1.1'
+        run_id            = $RunId
+        scenario_id       = $ScenarioId
+        variant_id        = $VariantId
+        component         = $component
+        operation         = $operation
+        start_time        = $startTime.ToString('o')
+        end_time          = $endTime.ToString('o')
+        duration_ms       = $durationMs
+        status            = $status
+        process           = $processInfo
+        marker            = $markerRecord
+        marker_validation = $markerValidation
+        result            = $result
+        errors            = $errors
+        error_message     = if ($errors.Count -gt 0) { $errors -join '; ' } else { $null }
+    }
+}
+
+Export-ModuleMember -Function Invoke-PocWmiComponent
+
+ScriptBlock ID: 03130d3f-2688-4d7c-bc2b-e5481006fefd
+Path: C:\Users\NT20-G13\Scripts\WmiExcutor.psm1"
+"2026-11-08T15:35:42.9337008+07:00","4103","3658","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Set-StrictMode): ""Set-StrictMode""
+ParameterBinding(Set-StrictMode): name=""Version""; value=""5.1.19041.3031""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Set-StrictMode
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1630
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:42.9342382+07:00","4103","3659","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Export-ModuleMember): ""Export-ModuleMember""
+ParameterBinding(Export-ModuleMember): name=""Function""; value=""Invoke-PocWmiComponent""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Export-ModuleMember
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1634
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:42.9351934+07:00","4103","3660","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Import-Module): ""Import-Module""
+ParameterBinding(Import-Module): name=""Name""; value=""C:\Users\NT20-G13\Scripts\WmiExcutor.psm1""
+ParameterBinding(Import-Module): name=""Force""; value=""True""
+ParameterBinding(Import-Module): name=""PassThru""; value=""True""
+ParameterBinding(Import-Module): name=""ErrorAction""; value=""Stop""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Import-Module
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1637
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:42.9360832+07:00","4103","3661","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Get-Command): ""Get-Command""
+ParameterBinding(Get-Command): name=""Name""; value=""WmiExcutor\Invoke-PocWmiComponent""
+ParameterBinding(Get-Command): name=""ErrorAction""; value=""Stop""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Get-Command
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1641
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:42.9370672+07:00","4103","3662","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Where-Object): ""Where-Object""
+ParameterBinding(Where-Object): name=""FilterScript""; value="" -not $command.Parameters.ContainsKey($_) ""
+ParameterBinding(Where-Object): name=""InputObject""; value=""RunId""
+ParameterBinding(Where-Object): name=""InputObject""; value=""ScenarioId""
+ParameterBinding(Where-Object): name=""InputObject""; value=""VariantId""
+ParameterBinding(Where-Object): name=""InputObject""; value=""MaxProcesses""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Where-Object
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1645
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:42.9398805+07:00","4103","3663","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Write-Host): ""Write-Host""
+ParameterBinding(Write-Host): name=""Object""; value=""[POC_EXECUTOR] MODULE_PATH=C:\Users\NT20-G13\Scripts\WmiExcutor.psm1""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Write-Host
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1649
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:42.9411177+07:00","4103","3664","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Write-Host): ""Write-Host""
+ParameterBinding(Write-Host): name=""Object""; value=""[POC_EXECUTOR] MODULE_NAME=WmiExcutor""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Write-Host
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1653
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:42.9421946+07:00","4103","3665","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Write-Host): ""Write-Host""
+ParameterBinding(Write-Host): name=""Object""; value=""[POC_EXECUTOR] MODULE_IMPORT=SUCCESS""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Write-Host
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1657
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:42.9625830+07:00","4103","3666","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Get-CimInstance): ""Get-CimInstance""
+ParameterBinding(Get-CimInstance): name=""ClassName""; value=""Win32_OperatingSystem""
+ParameterBinding(Get-CimInstance): name=""Property""; value=""Caption, Version, BuildNumber, CSName, LastBootUpTime""
+ParameterBinding(Get-CimInstance): name=""ErrorAction""; value=""Stop""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Get-CimInstance
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1662
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:42.9768264+07:00","4103","3667","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(New-Object): ""New-Object""
+ParameterBinding(New-Object): name=""TypeName""; value=""System.DateTimeOffset""
+ParameterBinding(New-Object): name=""ArgumentList""; value=""11/7/2026 10:25:57 AM, 07:00:00""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = New-Object
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1667
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:42.9785415+07:00","4103","3668","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(ConvertTo-Iso8601WithOffset): ""ConvertTo-Iso8601WithOffset""
+ParameterBinding(ConvertTo-Iso8601WithOffset): name=""Value""; value=""11/7/2026 10:25:57 AM""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = ConvertTo-Iso8601WithOffset
+        Command Type = Function
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1670
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0154035+07:00","4103","3669","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Get-CimInstance): ""Get-CimInstance""
+ParameterBinding(Get-CimInstance): name=""ClassName""; value=""Win32_Process""
+ParameterBinding(Get-CimInstance): name=""Filter""; value=""ProcessId = 7872""
+ParameterBinding(Get-CimInstance): name=""Property""; value=""Name, ProcessId, ParentProcessId, CreationDate, CommandLine""
+ParameterBinding(Get-CimInstance): name=""ErrorAction""; value=""Stop""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Get-CimInstance
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1674
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0164088+07:00","4103","3670","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(New-Object): ""New-Object""
+ParameterBinding(New-Object): name=""TypeName""; value=""System.DateTimeOffset""
+ParameterBinding(New-Object): name=""ArgumentList""; value=""11/7/2026 4:03:08 PM, 07:00:00""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = New-Object
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1679
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0167007+07:00","4103","3671","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(ConvertTo-Iso8601WithOffset): ""ConvertTo-Iso8601WithOffset""
+ParameterBinding(ConvertTo-Iso8601WithOffset): name=""Value""; value=""11/7/2026 4:03:08 PM""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = ConvertTo-Iso8601WithOffset
+        Command Type = Function
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1682
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0474806+07:00","4103","3672","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Get-CimInstance): ""Get-CimInstance""
+ParameterBinding(Get-CimInstance): name=""ClassName""; value=""Win32_Process""
+ParameterBinding(Get-CimInstance): name=""Property""; value=""Name, ProcessId, ParentProcessId, CreationDate, CommandLine""
+ParameterBinding(Get-CimInstance): name=""ErrorAction""; value=""Stop""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Get-CimInstance
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1687
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0509795+07:00","4100","3673","7872","3212","Microsoft-Windows-PowerShell","Warning","NT230-G13","False","Error Message = System error.
+
+
+Context:
+        Severity = Warning
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = 
+        Command Type = 
+        Script Name = 
+        Command Path = 
+        Sequence Number = 1690
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0516936+07:00","4103","3674","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Sort-Object): ""Sort-Object""
+ParameterBinding(Sort-Object): name=""Property""; value=""ProcessId""
+CommandInvocation(Select-Object): ""Select-Object""
+ParameterBinding(Select-Object): name=""First""; value=""5""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""0"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""4"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""108"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""372"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""488"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""568"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""576"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""668"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""712"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""720"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""844"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""872"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""880"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""964"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""1012"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""512"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""564"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""1168"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""1184"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""1196"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""1204"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""1212"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""1300"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""1420"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""1428"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""1472"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""1728"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""1748"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""1768"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""1788"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""1796"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""1920"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""1976"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""2020"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""2032"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""1160"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""2204"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""2260"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""2364"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""2372"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""2380"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""2452"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""2508"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""2692"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""2724"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""2772"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""2972"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""2988"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""2980"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""3004"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""3036"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""3056"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""472"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""2860"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""3080"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""3088"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""3096"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""3104"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""3112"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""3124"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""3184"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""3232"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""3400"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""3440"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""3452"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""3256"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""4112"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""4300"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""4600"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""4628"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""5184"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""5424"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""5456"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""5472"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""5504"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""5528"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""5592"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""5656"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""5904"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""5952"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""5960"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""6104"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""6356"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""6772"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""6868"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""6948"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""7132"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""6440"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""5004"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""4428"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""6256"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""7424"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""7996"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""7184"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""4292"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""7600"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""6492"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""1436"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""4680"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""2660"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""1508"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""7224"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""3200"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""8164"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""7940"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""2440"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""2616"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""856"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""1660"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""2664"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""5264"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""3272"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""3928"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""612"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""5328"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""7872"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""836"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""4384"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""7452"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""6416"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""5160"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""6252"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""5216"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""7796"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""492"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""1500"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""4248"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""6804"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""7508"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""1836"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""6120"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""2316"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""5976"")""
+ParameterBinding(Sort-Object): name=""InputObject""; value=""Win32_Process (Handle = ""7032"")""
+ParameterBinding(Select-Object): name=""InputObject""; value=""Win32_Process (Handle = ""0"")""
+ParameterBinding(Select-Object): name=""InputObject""; value=""Win32_Process (Handle = ""4"")""
+ParameterBinding(Select-Object): name=""InputObject""; value=""Win32_Process (Handle = ""108"")""
+ParameterBinding(Select-Object): name=""InputObject""; value=""Win32_Process (Handle = ""372"")""
+ParameterBinding(Select-Object): name=""InputObject""; value=""Win32_Process (Handle = ""472"")""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Sort-Object
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1693
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0528731+07:00","4103","3675","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(New-Object): ""New-Object""
+ParameterBinding(New-Object): name=""TypeName""; value=""System.DateTimeOffset""
+ParameterBinding(New-Object): name=""ArgumentList""; value=""11/7/2026 10:26:03 AM, 07:00:00""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = New-Object
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1698
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0530481+07:00","4103","3676","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(ConvertTo-Iso8601WithOffset): ""ConvertTo-Iso8601WithOffset""
+ParameterBinding(ConvertTo-Iso8601WithOffset): name=""Value""; value=""11/7/2026 10:26:03 AM""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = ConvertTo-Iso8601WithOffset
+        Command Type = Function
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1701
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0536882+07:00","4103","3677","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(New-Object): ""New-Object""
+ParameterBinding(New-Object): name=""TypeName""; value=""System.DateTimeOffset""
+ParameterBinding(New-Object): name=""ArgumentList""; value=""11/7/2026 10:26:03 AM, 07:00:00""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = New-Object
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1706
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0538293+07:00","4103","3678","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(ConvertTo-Iso8601WithOffset): ""ConvertTo-Iso8601WithOffset""
+ParameterBinding(ConvertTo-Iso8601WithOffset): name=""Value""; value=""11/7/2026 10:26:03 AM""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = ConvertTo-Iso8601WithOffset
+        Command Type = Function
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1709
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0542342+07:00","4103","3679","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(New-Object): ""New-Object""
+ParameterBinding(New-Object): name=""TypeName""; value=""System.DateTimeOffset""
+ParameterBinding(New-Object): name=""ArgumentList""; value=""11/7/2026 10:25:57 AM, 07:00:00""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = New-Object
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1714
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0543937+07:00","4103","3680","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(ConvertTo-Iso8601WithOffset): ""ConvertTo-Iso8601WithOffset""
+ParameterBinding(ConvertTo-Iso8601WithOffset): name=""Value""; value=""11/7/2026 10:25:57 AM""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = ConvertTo-Iso8601WithOffset
+        Command Type = Function
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1717
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0548497+07:00","4103","3681","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(New-Object): ""New-Object""
+ParameterBinding(New-Object): name=""TypeName""; value=""System.DateTimeOffset""
+ParameterBinding(New-Object): name=""ArgumentList""; value=""11/7/2026 10:26:03 AM, 07:00:00""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = New-Object
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1722
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0551840+07:00","4103","3682","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(ConvertTo-Iso8601WithOffset): ""ConvertTo-Iso8601WithOffset""
+ParameterBinding(ConvertTo-Iso8601WithOffset): name=""Value""; value=""11/7/2026 10:26:03 AM""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = ConvertTo-Iso8601WithOffset
+        Command Type = Function
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1725
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0556620+07:00","4103","3683","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(New-Object): ""New-Object""
+ParameterBinding(New-Object): name=""TypeName""; value=""System.DateTimeOffset""
+ParameterBinding(New-Object): name=""ArgumentList""; value=""11/7/2026 10:26:07 AM, 07:00:00""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = New-Object
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1730
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0557763+07:00","4103","3684","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(ConvertTo-Iso8601WithOffset): ""ConvertTo-Iso8601WithOffset""
+ParameterBinding(ConvertTo-Iso8601WithOffset): name=""Value""; value=""11/7/2026 10:26:07 AM""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = ConvertTo-Iso8601WithOffset
+        Command Type = Function
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1733
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0559788+07:00","4103","3685","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Get-ProcessInventory): ""Get-ProcessInventory""
+ParameterBinding(Get-ProcessInventory): name=""MaxProcesses""; value=""5""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Get-ProcessInventory
+        Command Type = Function
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1736
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0577949+07:00","4103","3686","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","True","CommandInvocation(Set-Variable): ""Set-Variable""
+ParameterBinding(Set-Variable): name=""Name""; value=""NT230_FILELESS_POC_MARKER_POC-20261108-153542-E74BC5""
+ParameterBinding(Set-Variable): name=""Value""; value=""@{name=NT230_FILELESS_POC; marker_version=1.1; project=NT230; run_id=POC-20261108-153542-E74BC5; scenario_id=FILELESS-WMI-001; variant_id=V01; component=wmi_executor; execution_type=benign; storage=memory; created_at=2026-11-08T15:35:43.0553355+07:00; host=NT230-G13; status=initialized}""
+ParameterBinding(Set-Variable): name=""Scope""; value=""Script""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Set-Variable
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1741
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0579336+07:00","4103","3687","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","True","CommandInvocation(New-MemoryMarker): ""New-MemoryMarker""
+ParameterBinding(New-MemoryMarker): name=""RunId""; value=""POC-20261108-153542-E74BC5""
+ParameterBinding(New-MemoryMarker): name=""ScenarioId""; value=""FILELESS-WMI-001""
+ParameterBinding(New-MemoryMarker): name=""VariantId""; value=""V01""
+ParameterBinding(New-MemoryMarker): name=""Component""; value=""wmi_executor""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = New-MemoryMarker
+        Command Type = Function
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1744
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0594196+07:00","4103","3688","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","True","CommandInvocation(Get-Variable): ""Get-Variable""
+ParameterBinding(Get-Variable): name=""Name""; value=""NT230_FILELESS_POC_MARKER_POC-20261108-153542-E74BC5""
+ParameterBinding(Get-Variable): name=""Scope""; value=""Script""
+ParameterBinding(Get-Variable): name=""ErrorAction""; value=""Stop""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Get-Variable
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1749
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0596006+07:00","4103","3689","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","True","CommandInvocation(Test-MemoryMarker): ""Test-MemoryMarker""
+ParameterBinding(Test-MemoryMarker): name=""RunId""; value=""POC-20261108-153542-E74BC5""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Test-MemoryMarker
+        Command Type = Function
+        Script Name = C:\Users\NT20-G13\Scripts\WmiExcutor.psm1
+        Command Path = 
+        Sequence Number = 1752
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0599863+07:00","4103","3690","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","True","CommandInvocation(Invoke-PocWmiComponent): ""Invoke-PocWmiComponent""
+ParameterBinding(Invoke-PocWmiComponent): name=""RunId""; value=""POC-20261108-153542-E74BC5""
+ParameterBinding(Invoke-PocWmiComponent): name=""ScenarioId""; value=""FILELESS-WMI-001""
+ParameterBinding(Invoke-PocWmiComponent): name=""VariantId""; value=""V01""
+ParameterBinding(Invoke-PocWmiComponent): name=""MaxProcesses""; value=""5""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Invoke-PocWmiComponent
+        Command Type = Function
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1755
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0605810+07:00","4103","3691","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","True","CommandInvocation(Join-Path): ""Join-Path""
+ParameterBinding(Join-Path): name=""Path""; value=""C:\Users\NT20-G13\Scripts\Output\POC-20261108-153542-E74BC5""
+ParameterBinding(Join-Path): name=""ChildPath""; value=""execution-result.json""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Join-Path
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1759
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0624253+07:00","4103","3692","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","True","CommandInvocation(ConvertTo-Json): ""ConvertTo-Json""
+ParameterBinding(ConvertTo-Json): name=""Depth""; value=""15""
+CommandInvocation(Out-File): ""Out-File""
+ParameterBinding(Out-File): name=""LiteralPath""; value=""C:\Users\NT20-G13\Scripts\Output\POC-20261108-153542-E74BC5\execution-result.json""
+ParameterBinding(Out-File): name=""Encoding""; value=""UTF8""
+ParameterBinding(ConvertTo-Json): name=""InputObject""; value=""@{schema_version=1.1; run_id=POC-20261108-153542-E74BC5; scenario_id=FILELESS-WMI-001; variant_id=V01; component=wmi_executor; operation=wmi_readonly_inventory; host=NT230-G13; user=NT230-G13\NT20-G13; powershell_version=5.1.19041.3031; administrator=True; module_path=C:\Users\NT20-G13\Scripts\WmiExcutor.psm1; start_time=2026-11-08T15:35:42.9305068+07:00; end_time=2026-11-08T15:35:43.0553355+07:00; duration_ms=125; status=SUCCESS; process=; marker=; marker_validation=; result=; error_message=}""
+ParameterBinding(Out-File): name=""InputObject""; value=""{
+    ""schema_version"":  ""1.1"",
+    ""run_id"":  ""POC-20261108-153542-E74BC5"",
+    ""scenario_id"":  ""FILELESS-WMI-001"",
+    ""variant_id"":  ""V01"",
+    ""component"":  ""wmi_executor"",
+    ""operation"":  ""wmi_readonly_inventory"",
+    ""host"":  ""NT230-G13"",
+    ""user"":  ""NT230-G13\\NT20-G13"",
+    ""powershell_version"":  ""5.1.19041.3031"",
+    ""administrator"":  true,
+    ""module_path"":  ""C:\\Users\\NT20-G13\\Scripts\\WmiExcutor.psm1"",
+    ""start_time"":  ""2026-11-08T15:35:42.9305068+07:00"",
+    ""end_time"":  ""2026-11-08T15:35:43.0553355+07:00"",
+    ""duration_ms"":  125,
+    ""status"":  ""SUCCESS"",
+    ""process"":  {
+                    ""name"":  ""powershell.exe"",
+                    ""pid"":  7872,
+                    ""start_time"":  ""2026-11-07T16:03:08.5934982+07:00"",
+                    ""parent_pid"":  5004,
+                    ""parent_pid_source"":  ""wmi_win32_process""
+                },
+    ""marker"":  {
+                   ""name"":  ""NT230_FILELESS_POC"",
+                   ""storage"":  ""memory"",
+                   ""validation_status"":  ""VALID"",
+                   ""run_id"":  ""POC-20261108-153542-E74BC5""
+               },
+    ""marker_validation"":  {
+                              ""marker_name"":  ""NT230_FILELESS_POC"",
+                              ""storage"":  ""memory"",
+                              ""status"":  ""VALID"",
+                              ""run_id"":  ""POC-20261108-153542-E74BC5"",
+                              ""variable_exists"":  true,
+                              ""run_id_match"":  true,
+                              ""marker_version"":  ""1.1"",
+                              ""validation_time"":  ""2026-11-08T15:35:43.0553355+07:00""
+                          },
+    ""result"":  {
+                   ""operation"":  ""wmi_readonly_inventory"",
+                   ""os"":  {
+                              ""caption"":  ""Microsoft Windows 10 Enterprise LTSC"",
+                              ""version"":  ""10.0.19044"",
+                              ""build_number"":  ""19044"",
+                              ""computer"":  ""NT230-G13"",
+                              ""last_boot_up"":  ""2026-11-07T10:25:57.5000000+07:00""
+                          },
+                   ""process"":  {
+                                   ""name"":  ""powershell.exe"",
+                                   ""pid"":  7872,
+                                   ""parent_pid"":  5004,
+                                   ""creation_date"":  ""2026-11-07T16:03:08.5934980+07:00"",
+                                   ""command_line"":  ""\""C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\"" "",
+                                   ""parent_pid_source"":  ""wmi_win32_process""
+                               },
+                   ""process_count"":  5,
+                   ""process_inventory"":  [
+                                             {
+                                                 ""name"":  ""System Idle Process"",
+                                                 ""pid"":  0,
+                                                 ""parent_pid"":  0,
+                                                 ""creation_date"":  ""2026-11-07T10:26:03.1218680+07:00"",
+                                                 ""command_line"":  null
+                                             },
+                                             {
+                                                 ""name"":  ""System"",
+                                                 ""pid"":  4,
+                                                 ""parent_pid"":  0,
+                                                 ""creation_date"":  ""2026-11-07T10:26:03.1218680+07:00"",
+                                                 ""command_line"":  null
+                                             },
+                                             {
+                                                 ""name"":  ""Registry"",
+                                                 ""pid"":  108,
+                                                 ""parent_pid"":  4,
+                                                 ""creation_date"":  ""2026-11-07T10:25:57.7045880+07:00"",
+                                                 ""command_line"":  null
+                                             },
+                                             {
+                                                 ""name"":  ""smss.exe"",
+                                                 ""pid"":  372,
+                                                 ""parent_pid"":  4,
+                                                 ""creation_date"":  ""2026-11-07T10:26:03.1287060+07:00"",
+                                                 ""command_line"":  null
+                                             },
+                                             {
+                                                 ""name"":  ""svchost.exe"",
+                                                 ""pid"":  472,
+                                                 ""parent_pid"":  712,
+                                                 ""creation_date"":  ""2026-11-07T10:26:07.1867200+07:00"",
+                                                 ""command_line"":  ""C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p -s TrkWks""
+                                             }
+                                         ]
+               },
+    ""error_message"":  null
+}""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = ConvertTo-Json
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1769
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0628134+07:00","4103","3693","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","True","CommandInvocation(Join-Path): ""Join-Path""
+ParameterBinding(Join-Path): name=""Path""; value=""C:\Users\NT20-G13\Scripts\Output\POC-20261108-153542-E74BC5""
+ParameterBinding(Join-Path): name=""ChildPath""; value=""run-metadata.json""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Join-Path
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1773
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0640616+07:00","4103","3694","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","True","CommandInvocation(ConvertTo-Json): ""ConvertTo-Json""
+ParameterBinding(ConvertTo-Json): name=""Depth""; value=""12""
+CommandInvocation(Out-File): ""Out-File""
+ParameterBinding(Out-File): name=""LiteralPath""; value=""C:\Users\NT20-G13\Scripts\Output\POC-20261108-153542-E74BC5\run-metadata.json""
+ParameterBinding(Out-File): name=""Encoding""; value=""UTF8""
+ParameterBinding(ConvertTo-Json): name=""InputObject""; value=""@{schema_version=1.1; run_id=POC-20261108-153542-E74BC5; scenario_id=FILELESS-WMI-001; variant_id=V01; component=wmi_executor; host=NT230-G13; user=NT230-G13\NT20-G13; powershell_version=5.1.19041.3031; administrator=True; executor_process=; execution=; execution_result_path=C:\Users\NT20-G13\Scripts\Output\POC-20261108-153542-E74BC5\execution-result.json; output_directory=C:\Users\NT20-G13\Scripts\Output\POC-20261108-153542-E74BC5}""
+ParameterBinding(Out-File): name=""InputObject""; value=""{
+    ""schema_version"":  ""1.1"",
+    ""run_id"":  ""POC-20261108-153542-E74BC5"",
+    ""scenario_id"":  ""FILELESS-WMI-001"",
+    ""variant_id"":  ""V01"",
+    ""component"":  ""wmi_executor"",
+    ""host"":  ""NT230-G13"",
+    ""user"":  ""NT230-G13\\NT20-G13"",
+    ""powershell_version"":  ""5.1.19041.3031"",
+    ""administrator"":  true,
+    ""executor_process"":  {
+                             ""name"":  ""powershell.exe"",
+                             ""pid"":  7872,
+                             ""start_time"":  ""2026-11-07T16:03:08.5934982+07:00"",
+                             ""parent_pid"":  5004,
+                             ""parent_pid_source"":  ""wmi_win32_process""
+                         },
+    ""execution"":  {
+                      ""start_time"":  ""2026-11-08T15:35:42.9305068+07:00"",
+                      ""end_time"":  ""2026-11-08T15:35:43.0553355+07:00"",
+                      ""status"":  ""SUCCESS"",
+                      ""duration_ms"":  125,
+                      ""marker"":  {
+                                     ""name"":  ""NT230_FILELESS_POC"",
+                                     ""storage"":  ""memory"",
+                                     ""validation_status"":  ""VALID"",
+                                     ""run_id"":  ""POC-20261108-153542-E74BC5""
+                                 },
+                      ""marker_validation"":  ""VALID"",
+                      ""process_count"":  5,
+                      ""error"":  null
+                  },
+    ""execution_result_path"":  ""C:\\Users\\NT20-G13\\Scripts\\Output\\POC-20261108-153542-E74BC5\\execution-result.json"",
+    ""output_directory"":  ""C:\\Users\\NT20-G13\\Scripts\\Output\\POC-20261108-153542-E74BC5""
+}""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = ConvertTo-Json
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1783
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0644346+07:00","4103","3695","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","True","CommandInvocation(Join-Path): ""Join-Path""
+ParameterBinding(Join-Path): name=""Path""; value=""C:\Users\NT20-G13\Scripts\Output\POC-20261108-153542-E74BC5""
+ParameterBinding(Join-Path): name=""ChildPath""; value=""execution-summary.txt""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Join-Path
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1787
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0666489+07:00","4103","3696","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","True","CommandInvocation(Out-File): ""Out-File""
+ParameterBinding(Out-File): name=""LiteralPath""; value=""C:\Users\NT20-G13\Scripts\Output\POC-20261108-153542-E74BC5\execution-summary.txt""
+ParameterBinding(Out-File): name=""Encoding""; value=""UTF8""
+ParameterBinding(Out-File): name=""Width""; value=""4096""
+ParameterBinding(Out-File): name=""InputObject""; value=""NT230 WMI PoC - Execution Summary""
+ParameterBinding(Out-File): name=""InputObject""; value=""=========================================""
+ParameterBinding(Out-File): name=""InputObject""; value=""Run ID: POC-20261108-153542-E74BC5""
+ParameterBinding(Out-File): name=""InputObject""; value=""Scenario ID: FILELESS-WMI-001""
+ParameterBinding(Out-File): name=""InputObject""; value=""Variant ID: V01""
+ParameterBinding(Out-File): name=""InputObject""; value=""Host: NT230-G13""
+ParameterBinding(Out-File): name=""InputObject""; value=""User: NT230-G13\NT20-G13""
+ParameterBinding(Out-File): name=""InputObject""; value=""PowerShell Version: 5.1.19041.3031""
+ParameterBinding(Out-File): name=""InputObject""; value=""Administrator: True""
+ParameterBinding(Out-File): name=""InputObject""; value=""Executor Process: powershell.exe""
+ParameterBinding(Out-File): name=""InputObject""; value=""Executor PID: 7872""
+ParameterBinding(Out-File): name=""InputObject""; value=""Process Start Time: 2026-11-07T16:03:08.5934982+07:00""
+ParameterBinding(Out-File): name=""InputObject""; value=""Execution Start: 2026-11-08T15:35:42.9305068+07:00""
+ParameterBinding(Out-File): name=""InputObject""; value=""Execution End: 2026-11-08T15:35:43.0553355+07:00""
+ParameterBinding(Out-File): name=""InputObject""; value=""Execution Status: SUCCESS""
+ParameterBinding(Out-File): name=""InputObject""; value=""Duration (ms): 125""
+ParameterBinding(Out-File): name=""InputObject""; value=""Marker: NT230_FILELESS_POC""
+ParameterBinding(Out-File): name=""InputObject""; value=""Marker Storage: memory""
+ParameterBinding(Out-File): name=""InputObject""; value=""Marker Validation: VALID""
+ParameterBinding(Out-File): name=""InputObject""; value=""Process Count: 5""
+ParameterBinding(Out-File): name=""InputObject""; value=""Execution Result: C:\Users\NT20-G13\Scripts\Output\POC-20261108-153542-E74BC5\execution-result.json""
+ParameterBinding(Out-File): name=""InputObject""; value=""Output Directory: C:\Users\NT20-G13\Scripts\Output\POC-20261108-153542-E74BC5""
+ParameterBinding(Out-File): name=""InputObject""; value=""""
+ParameterBinding(Out-File): name=""InputObject""; value=""Telemetry: Not collected by this script.""
+ParameterBinding(Out-File): name=""InputObject""; value=""Run Collect-Wmi-Telemetry.ps1 separately to collect telemetry.""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Out-File
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1795
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0685668+07:00","4103","3697","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Write-Host): ""Write-Host""
+ParameterBinding(Write-Host): name=""Object""; value=""[POC_EXECUTOR] EXECUTION_STATUS=SUCCESS""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Write-Host
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1799
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0697952+07:00","4103","3698","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","True","CommandInvocation(Write-Host): ""Write-Host""
+ParameterBinding(Write-Host): name=""Object""; value=""[POC_EXECUTOR] EXECUTION_RESULT=C:\Users\NT20-G13\Scripts\Output\POC-20261108-153542-E74BC5\execution-result.json""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Write-Host
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1803
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0713773+07:00","4103","3699","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Write-Host): ""Write-Host""
+ParameterBinding(Write-Host): name=""Object""; value=""[POC_EXECUTOR] TELEMETRY=NOT_COLLECTED""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = Write-Host
+        Command Type = Cmdlet
+        Script Name = C:\Users\NT20-G13\Scripts\Invoke-PoC.ps1
+        Command Path = 
+        Sequence Number = 1807
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0715649+07:00","4103","3700","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Out-Default): ""Out-Default""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 64
+        Command Name = 
+        Command Type = Script
+        Script Name = 
+        Command Path = 
+        Sequence Number = 1812
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
+"2026-11-08T15:35:43.0731492+07:00","4104","3701","7872","3212","Microsoft-Windows-PowerShell","Verbose","NT230-G13","False","Creating Scriptblock text (1 of 1):
+prompt
+
+ScriptBlock ID: 1fee8f3e-633e-4321-97a7-0a0a58ab525d
+Path: "
+"2026-11-08T15:35:43.0744572+07:00","4103","3702","7872","3212","Microsoft-Windows-PowerShell","Information","NT230-G13","False","CommandInvocation(Set-StrictMode): ""Set-StrictMode""
+ParameterBinding(Set-StrictMode): name=""Off""; value=""True""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.3031
+        Host ID = 615b6fdc-5c5a-4ec6-ba94-60285224c86e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.3031
+        Runspace ID = fedfff13-feac-497c-9f0a-c5247ae0b5ed
+        Pipeline ID = 66
+        Command Name = Set-StrictMode
+        Command Type = Cmdlet
+        Script Name = C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1
+        Command Path = 
+        Sequence Number = 1821
+        User = NT230-G13\NT20-G13
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+"
